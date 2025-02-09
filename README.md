@@ -1,0 +1,2 @@
+# botium
+Discord bot

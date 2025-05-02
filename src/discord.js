@@ -6,8 +6,16 @@ dotenv.config()
 const commands = [
   {
     name: 'ping',
-    description: 'Replies with Pong!',
+    description: 'Replies with Pong!'
   },
+  {
+    name: 'marco',
+    description: 'Replies with Polo!'
+  },
+  {
+    name: 'double',
+    description: 'Replies with Cheesburger!'
+  }
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.TOKEN);
@@ -35,6 +43,12 @@ client.on(Events.InteractionCreate, async interaction => {
 
   if (interaction.commandName === 'ping') {
     await interaction.reply('Pong!');
+  }
+  if (interaction.commandName === 'marco') {
+    await interaction.reply('Polo!');
+  }
+  if (interaction.commandName === 'double') {
+    await interaction.reply('Cheeseburger!');
   }
 });
 

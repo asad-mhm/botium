@@ -10,7 +10,7 @@ const commands = [
   },
   {
     name: 'marco',
-    description: 'Replies with Polo!'
+    description: 'Replies with Polo!!'
   },
   {
     name: 'double',

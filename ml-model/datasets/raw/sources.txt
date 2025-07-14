@@ -1,0 +1,5 @@
+https://github.com/Libr-AI/do-not-answer
+https://huggingface.co/datasets/Human-CentricAI/llm-refusal-chatbot-arena
+https://github.com/maxwellreuter/chatgpt-refusals.git
+
+https://huggingface.co/holistic-ai/rejection_detection
